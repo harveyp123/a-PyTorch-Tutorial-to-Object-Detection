@@ -39,6 +39,11 @@ See `PascalVOCDataset` in [`datasets.py`](https://github.com/sgrvinod/a-PyTorch-
 
 Before you begin, make sure to save the required data files for training and evaluation. To do this, run the contents of [`create_data_lists.py`](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection/blob/master/create_data_lists.py) after pointing it to the `VOC2007` and `VOC2012` folders in your [downloaded data](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection#download).
 
+```bash
+python create_data_lists.py
+```
+
+
 See [`train.py`](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection/blob/master/train.py).
 
 The parameters for the model (and training it) are at the beginning of the file, so you can easily check or modify them should you need to.
